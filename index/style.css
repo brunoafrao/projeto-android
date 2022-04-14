@@ -1,0 +1,32 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+:root{
+    --cor0: #F0C39E;
+    --cor1: #B39176;
+    --cor2: #F09B56;
+    --cor3: #A36A3B;
+    --cor4: #704828;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor0);
+    max-width: 1000px;
+    max-height: 300px;
+    margin: auto;
+   
+}
+
+main{
+    background-color: white;
+    margin: auto;
+}
